@@ -1,23 +1,25 @@
 def media(num):
     den = len(num)
     soma = sum(num)
+
     return (soma) / den
 
 def notas(qt_provas):
     num =[]
     for i in range(qt_provas):
-        b = int(input(f"Digite a nota da prova {i + 1}:\n"))
+        b = float(input(f"Digite a nota da prova {i + 1}:\n"))
         num.append(b)
     return num
 
 def exame(media):
-    print(f"Sua média é:{media}")
+    print(f"\nSua média é:{media:.2f}\n")
     if media >= 7:
-        print("Passou")
+        print("Passou\n")
     else:
-        print("Exame")
+        print("Exame\n")
         nexame = 10-media
-        print(f"Precisará tirar {nexame}") 
+        print(f"Precisará tirar: {nexame:.2f}\n") 
+    return 0
 
 
 
