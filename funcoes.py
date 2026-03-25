@@ -10,5 +10,14 @@ def notas(qt_provas):
         num.append(b)
     return num
 
+def exame(media):
+    print(f"Sua média é:{media}")
+    if media >= 7:
+        print("Passou")
+    else:
+        print("Exame")
+        nexame = 10-media
+        print(f"Precisará tirar {nexame}") 
+
 
 
