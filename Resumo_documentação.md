@@ -1,4 +1,4 @@
-IF/Else
+# IF/Else
 
 if — testa uma condição; se for verdadeira, executa o bloco.
 elif — testa uma condição alternativa (pode haver zero ou mais).
@@ -7,7 +7,7 @@ else — executado quando nenhuma condição anterior foi verdadeira (é opciona
 A palavra-chave elif é uma abreviação de "else if" e serve para evitar indentação excessiva. 
 Uma cadeia if … elif … elif … substitui os comandos switch ou case de outras linguagens. 
 
-Exemplo:
+## Exemplo:
 x = int(input("Insira um número inteiro: "))
 
 if x < 0:
